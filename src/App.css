@@ -36,3 +36,63 @@
     transform: rotate(360deg);
   }
 }
+
+/* Navbar container */
+.navbar {
+  background-color: #1f2933;   /* dark blue */
+  padding: 15px 30px;
+}
+
+/* Remove bullets & align horizontally */
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Links */
+.nav-list li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.nav-list li a:hover {
+  color: #38bdf8;
+}
+.page {
+  height: calc(100vh - 60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Gradient backgrounds for each page */
+.home {
+  background: linear-gradient(to right, #2193b0, #6dd5ed);
+}
+
+.products {
+  background: linear-gradient(to right, #d7e1d3, #a8e063);
+}
+
+.services {
+  background: linear-gradient(to right, #614385, #516395);
+}
+
+.clients {
+  background: linear-gradient(to right, #ff512f, #dd2476);
+}
+
+.portfolio {
+  background: linear-gradient(to right, #141e30, #243b55);
+}
